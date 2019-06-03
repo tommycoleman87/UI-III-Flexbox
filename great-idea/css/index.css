@@ -63,4 +63,168 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.main-container {
+	width: 1000px;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin: auto;
+}
+
+
+
+header {
+	margin: auto;
+	display: inline-block;
+	height: 500px;
+	width: 90%;
+}
+
+header button {
+	height: 30px;
+	width: 150px;
+	border: 1px solid black;
+}
+
+
+
+.header-left {
+	margin-top: 50px;
+	display: inline-block;
+	width: 49%;
+	vertical-align: middle;
+	text-align: center;	
+}
+
+.header-right {
+	margin-top: 50px;
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+	width: 49%;
+}
+
+
+header h1 {
+	font-size: 80px;
+}
+
+.top-content {
+	margin-bottom: 20px;
+	margin-top: 25px;
+	display: inline-block;
+	width: 100%;
+}
+
+.top-content-right {
+	text-align: left;
+	display: inline-block;
+	width: 49%;
+}
+
+.top-content-left {
+	text-align: left;
+	display: inline-block;
+	width: 49%;
+}
+
+.bottom-content {
+	margin-top: 20px;
+	margin-bottom: 25px;
+	width: 100%;
+	display: inline-block;
+}
+
+.bottom-content div {
+	display: inline-block;
+	width: 33%;
+}
+
+footer {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.middle-img {
+	width: 100%;
+	margin: auto;
+}
+
+.main-body {
+	height: 800px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-around;
+	
+}
+
+
+.body-boxes {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 25px;
+	background: #f3f3f3;
+	width: 48%;
+	height: 210px;
+	border: 1px solid black;
+}
+
+.body-boxes button {
+	width: 150px;
+	height: 30px;
+	margin-top: 25px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: black;
+}
+
+.flex-nav {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-nav a {
+	padding: 0;
+	vertical-align: center;
+	color: grey;
+	text-decoration: none;
+}
+
+.services-header {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 120px;
+	width: 100%;
+	justify-content: space-around;
+	
+}
+
+.services-header h1 {
+	font-size: 25px;
+}
+
+.services-bottom {
+	margin-top: 25px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.services-btm-l {
+	padding-right: 25px;
+}
+
+ul {
+	list-style-type: disc;
+	list-style-position: inside;
+}
